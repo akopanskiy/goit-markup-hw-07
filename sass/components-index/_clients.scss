@@ -1,0 +1,40 @@
+.container-clients {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.clients-icon {
+  padding-bottom: 94px;
+  &-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    border: 1px solid $icon-color;
+    width: 170px;
+    height: 90px;
+
+    border-radius: 4px;
+
+    transition: border 250ms $cubic;
+  }
+  &-list:last-child {
+    margin-right: 0;
+  }
+  &-list:hover,
+  &-list:focus-within {
+    border: 1px solid $accent;
+  }
+  &-list:hover,
+  &-list:focus-within {
+    .clients-logo {
+      fill: $accent;
+    }
+  }
+}
+.clients-logo {
+  fill: $icon-color;
+  transition: fill 250ms $cubic;
+}
