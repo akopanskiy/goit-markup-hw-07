@@ -823,7 +823,7 @@ ul {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.img-item:nth-last-child(3n) {
+.img-item:nth-child(3n) {
   margin-right: 0;
 }
 

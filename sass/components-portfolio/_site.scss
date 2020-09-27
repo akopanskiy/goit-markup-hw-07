@@ -10,7 +10,7 @@
   border: 1px solid $border-color;
   transition: box-shadow 250ms $cubic;
 
-  &:nth-last-child(3n) {
+  &:nth-child(3n) {
     margin-right: 0;
   }
   &:nth-last-child(-n + 3) {
